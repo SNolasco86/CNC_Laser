@@ -101,7 +101,7 @@
       },
       "rules": {
         "allow_blind_buried_vias": false,
-        "allow_microvias": false,
+        "allow_microvias": true,
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_copper_edge_clearance": 0.0,
@@ -443,6 +443,7 @@
           "/step_input_X",
           "/step_input_Y",
           "/step_input_Z",
+          "GND",
           "Net-(A1-Pad1)",
           "Net-(A1-Pad2)",
           "Net-(D3-Pad2)",
